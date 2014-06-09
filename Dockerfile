@@ -1,4 +1,4 @@
-FROM dockerfile/java
+FROM wiredthing/oraclejdk:7u60
 MAINTAINER Doug Clinton <doug@wiredthing.com>
 
 WORKDIR /root
