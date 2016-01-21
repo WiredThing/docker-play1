@@ -1,4 +1,4 @@
-FROM wiredthing/oraclejdk:7u80
+FROM wiredthing/oraclejdk:7u60
 MAINTAINER matt knights <matt@wiredthing.com>
 
 WORKDIR /root
