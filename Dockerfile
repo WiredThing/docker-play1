@@ -3,10 +3,10 @@ MAINTAINER matt knights <matt@wiredthing.com>
 
 WORKDIR /root
 RUN apt-get install -y unzip
-RUN wget -q http://downloads.typesafe.com/play/1.3.1/play-1.3.1.zip
-RUN unzip -q play-1.3.1.zip
-RUN mv play-1.3.1 /opt/play
-RUN rm play-1.3.1.zip
+RUN wget -q http://downloads.typesafe.com/play/1.4.1/play-1.4.1.zip
+RUN unzip -q play-1.4.1.zip
+RUN mv play-1.4.1 /opt/play
+RUN rm play-1.4.1.zip
 
 RUN apt-get install -y python
 
